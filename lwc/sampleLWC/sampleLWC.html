@@ -1,0 +1,38 @@
+<template>
+
+    <lightning-card title="Show Message Example" icon-name="custom:custom58">
+        &nbsp;
+        <lightning-button label="Show Error" onclick={showError}></lightning-button>
+        <lightning-button label="Show Warning" onclick={showWarning}></lightning-button>
+        <lightning-button label="Show Success" onclick={showSuccess}></lightning-button>
+        <lightning-button label="Show Info" onclick={showInfo}></lightning-button>
+    </lightning-card>
+    <br/>
+    <lightning-card title="Navigation Example" icon-name="custom:custom59">
+        &nbsp;
+        <lightning-button label="New Account" onclick={newAccount}></lightning-button>
+        <lightning-button label="View Account" onclick={viewAccount}></lightning-button>
+        <lightning-button label="Edit Account" onclick={editAccount}></lightning-button>
+
+        <lightning-button label="Home Tab" onclick={navigateToHome}></lightning-button>
+        <lightning-button label="Account Home" onclick={navAccountHome}></lightning-button>
+        <lightning-button label="BatchJob Tab" onclick={navTab}></lightning-button>
+    </lightning-card>
+
+    <br/>
+
+    <lightning-card title="Confirmation Dialog" icon-name="custom:custom60">
+        &nbsp;
+        <lightning-button label="Open Confirmation" onclick={handleClick} name="openDialog"></lightning-button>
+    </lightning-card>
+    <c-confirmation-dialog modal-heading='Confirmation'
+                           message='Do you want to proceed?'
+                           show-modal={showDialog}
+                           callback-message={callbackMessage}
+                           name="confirmModal"
+                           onclick={handleClick}>
+    </c-confirmation-dialog>
+
+    
+
+</template>
