@@ -13,5 +13,5 @@ https://github.com/ianhuang/Apex-Batch-Job-Scheduler
 ## Rest Web Service Callout Framwork
 https://github.com/ianhuang/ApexRestCalloutFramework
 
-## Salesforce Unt Test Factory
+## Salesforce Unit Test Factory
 https://github.com/dhoechst/Salesforce-Test-Factory
